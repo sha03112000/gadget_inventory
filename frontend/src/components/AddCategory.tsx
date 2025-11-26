@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowLeft, Trash2 } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Label } from './ui/label';

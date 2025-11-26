@@ -63,7 +63,7 @@ export default function App() {
   const [deleteCategory] = useDeleteCategoryMutation();
   const [deleteProduct] = useDeleteProductMutation();
 
-  const { data: productsData, isLoading, isError } = useGetProductsQuery(undefined);
+  const { data: productsData} = useGetProductsQuery(undefined);
   const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {
