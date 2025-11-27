@@ -21,7 +21,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://gadget-inventory-git-main-shabad-mks-projects-4d38d2f8.vercel.app",
+      "https://gadget-inventory.vercel.app",
   
     ],
     credentials: true,
